@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+.container-principal {
+  width: 1500px;
+  height: 100vh;
+}
+.container-products {
+  display: flex;
+}
+
+@media (max-width: 642px) {
+  .container-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .container-products {
+    display: flex;
+
+    justify-content: center;
+    margin: auto;
+  }
+  .container-render-product {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .container-cart {
+    position: fixed;
+    margin-top: 280px;
+    width: 365px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .overflow {
+    overflow-y: auto;
+  }
+}

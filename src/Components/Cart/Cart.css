@@ -1,0 +1,179 @@
+.container-cart {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-cart {
+  width: 365px;
+  height: 65px;
+  margin-top: 27px;
+  /* color-primary */
+  background: #27ae60;
+  border-radius: 5px 5px 0px 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.header-cart > h3 {
+  margin-left: 15px;
+}
+
+.box-cart {
+  width: 365px;
+  height: 158px;
+  /* nao posso tirar essa borda */
+  border: 1px solid rgba(112, 32, 192, 0);
+  background: #f5f5f5;
+}
+.msg-display-none > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  /* or 133% */
+  text-align: center;
+
+  color: #333333;
+}
+.msg-display-none p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* identical to box height, or 171% */
+  text-align: center;
+
+  /* grey-300 */
+  color: #828282;
+}
+.box-price {
+  width: 365px;
+  height: 158px;
+  border: 1px solid rgba(112, 32, 192, 0);
+  background: #f5f5f5;
+  border-top: 2px solid rgba(143, 140, 140, 0.247);
+}
+.box-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-price-container > h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 5px;
+
+  /* identical to box height, or 171% */
+
+  /* grey-600 */
+  color: #333333;
+}
+.box-price-container > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 5px;
+  color: #828282;
+}
+
+.btn-remove-all {
+  width: 365px;
+  height: 60px;
+  left: 0px;
+  top: 62px;
+
+  /* grey-100 */
+  background: #e0e0e0;
+
+  /* grey-100 */
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #828282;
+  cursor: pointer;
+}
+.btn-remove-all:hover {
+  background-color: #c7c5c5a1;
+  border: none;
+}
+.produtos-no-cart {
+  margin-top: 5px;
+  width: 363px;
+  height: 80px;
+  box-shadow: 1px 1px 10px 1px rgba(148, 148, 148, 0.466);
+}
+.container-cart-product {
+  display: flex;
+  justify-content: space-between;
+}
+.img-cart {
+  width: 70px;
+  height: 70px;
+}
+.box-img-title {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title-cart-h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* or 171% */
+
+  color: #333333;
+}
+.paragraph-cart {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #828282;
+}
+.btn-remove {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  border: none;
+  cursor: pointer;
+  color: #686868;
+  background-color: #fff;
+  margin-right: 5px;
+}
